@@ -1,6 +1,6 @@
 package com.loop.test.day4_xpath_find_element;
 
-import com.loop.test.utillities.WebDriverFactory;
+import com.loop.test.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

@@ -1,6 +1,6 @@
 package com.loop.test.base;
 
-import com.loop.test.utillities.WebDriverFactory;
+import com.loop.test.utilities.WebDriverFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 
@@ -14,7 +14,7 @@ public class TestBase {
         driver.manage().window().maximize();
     }
 
-    @AfterMethod
+   // @AfterMethod
     public void tearDownMethod(){
         driver.close();
     }

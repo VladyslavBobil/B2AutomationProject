@@ -1,7 +1,7 @@
 package com.loop.test.day3_locators_css_xpath;
 
-import com.loop.test.utillities.LoopCampConstants;
-import com.loop.test.utillities.WebDriverFactory;
+import com.loop.test.utilities.LoopCampConstants;
+import com.loop.test.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
