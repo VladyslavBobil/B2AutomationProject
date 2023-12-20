@@ -1,7 +1,7 @@
 package com.loop.test.day5_testNG_checkbox_radioButton_dropdown;
 
-import com.loop.test.utillities.DocuportConstants;
-import com.loop.test.utillities.WebDriverFactory;
+import com.loop.test.utilities.DocuportConstants;
+import com.loop.test.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -36,7 +36,7 @@ public class T6_dropdown_without_select {
         WebElement login = driver.findElement(By.xpath("//button[@type='submit']"));
 
         userName.sendKeys(DocuportConstants.USERNAME_ADVISOR);
-        password.sendKeys(DocuportConstants.PASSWORD_ADVISOR);
+        password.sendKeys(DocuportConstants.PASSWORD);
 
         login.click();
         WebElement receivedDocuments = driver.findElement(By.xpath("//span[.='Received docs']"));
