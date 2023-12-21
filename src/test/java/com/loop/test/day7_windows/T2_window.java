@@ -17,13 +17,14 @@ public class T2_window extends TestBase {
 
         Set<String> windowHandles = driver.getWindowHandles();
 
-        for (String window : windowHandles) {
-            driver.switchTo().window(window);
-            System.out.println("driver.getCurrentUrl() = " + driver.getCurrentUrl());
-            if (driver.getCurrentUrl().toLowerCase().contains("etsy")) {
-                break;
-            }
-        }
-        BrowserUtils.switchWindowAndValidate(driver,"facebook.com","facebook");
+//        for (String window : windowHandles) {
+//            driver.switchTo().window(window);
+//            System.out.println("driver.getCurrentUrl() = " + driver.getCurrentUrl());
+//            if (driver.getCurrentUrl().toLowerCase().contains("etsy")) {
+//                break;
+//            }
+//        }
+        //BrowserUtils.switchWindowAndValidate(driver,"facebook.com","facebook");
+        BrowserUtils.switchToWindow(driver , "Facebook");
     }
 }
